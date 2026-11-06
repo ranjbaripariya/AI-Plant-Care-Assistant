@@ -1,23 +1,19 @@
 # AI Plant Care Assistant
 
-**Summary:** A mobile application that uses artificial intelligence to help people take care of their indoor plants by analyzing photos and providing personalized care instructions.
+## Summary
+My idea is to develop an AI-powered application called "Smart Plant Care". This application helps users take care of their plants using artificial intelligence. Users can take a picture of their plants and upload it to the application. The AI analyzes the image to detect possible problems, such as diseases, dry leaves, or lack of water. The main goal of this project is to make plant care easier and prevent plants from dying.
 
 ## Background
-Many people love having plants at home but struggle to keep them alive. They often don't know if a plant needs water, more sunlight, or if it has a disease. This leads to frustration and wasted money. My motivation is to make plant care easy and accessible for everyone.
+Many people struggle to keep their plants healthy due to lack of knowledge about watering schedules, light requirements, and plant diseases. This problem is very common, especially among beginners.
 
 ## How is it used?
-The user opens the app and takes a picture of their plant. The AI model analyzes the image to detect the type of plant and check for signs of diseases, dry leaves, or pests. The app then gives specific instructions, such as "Water the plant today" or "Move it to a brighter spot."
+Users can take a picture of their plants and upload it to the application. The AI analyzes the image to detect possible problems, such as diseases, dry leaves, or lack of water. The application then provides personalized recommendations.
 
 ## Data sources and AI methods
-The AI model will be trained using a large dataset of plant images, such as the open-source PlantVillage dataset. 
-I will use Convolutional Neural Networks (CNNs), which are highly effective for image classification tasks. The model will learn to differentiate between healthy and unhealthy leaves based on visual patterns.
+The project will use a dataset of plant images labeled with their health status. AI techniques like Convolutional Neural Networks (CNNs) will be used for image classification.
 
 ## Challenges
-The main challenge is image quality. If the user takes a blurry photo or the lighting is bad, the AI might give a wrong prediction. Also, distinguishing between similar-looking plant diseases requires a very large and diverse dataset. The model cannot replace professional botanists, but it serves as a helpful guide.
+The AI might not be 100% accurate. It cannot replace professional botanists. Also, we need a large amount of high-quality data to train the model.
 
 ## What next?
-If the project is successful, I could add a community feature where users share their plant care tips. In the future, the app could connect to smart watering devices (IoT) to automate the watering process based on the AI's recommendations.
-
-## Acknowledgments
-*   Inspiration and data from the PlantVillage dataset.
-*   Elements of AI course by University of Helsinki for providing the knowledge to build this project.
+The project could grow by adding a community feature where users can share tips and experiences.
